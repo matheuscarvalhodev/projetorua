@@ -4,8 +4,8 @@ import PaginaInicial from './paginas/paginaInicial';
 function App() {
   return (
     <div>
-     <Adocao/>
       <PaginaInicial/>
+      <Adocao/>
     </div>
   );
 }
