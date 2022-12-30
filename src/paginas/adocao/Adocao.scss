@@ -1,0 +1,34 @@
+.principalAdocao {
+    background-color: #EAE6DD;
+
+}
+.card{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 300px 300px 300px 300px;
+    gap: 20px;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tituloAdocao{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.tituloAdocao h1{
+    margin-top: 30px;
+    font-family: 'Rubik Bubbles',cursive;
+    font-weight: 200;
+}
+.pata{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
