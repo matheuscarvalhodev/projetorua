@@ -1,23 +1,21 @@
-.principalAdocao {
-    background-color: #EAE6DD;
 
-}
 .card{
     display: grid;
     grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-rows: 250px 250px 250px 250px;
     gap: 20px;
     width: 900px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .tituloAdocao{
     text-align: center;
     justify-content: center;
     align-items: center;
+    padding-top: 1.5rem;
 
 }
 .tituloAdocao h1{
@@ -27,7 +25,6 @@
 }
 .pata{
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
     gap: 15px;
