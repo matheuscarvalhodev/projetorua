@@ -1,0 +1,16 @@
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
+.rodape{
+    @include breakpoint(md){
+        height: 80px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+}

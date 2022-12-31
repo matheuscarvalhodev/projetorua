@@ -36,11 +36,12 @@
 }
 
 .principalContato{
-    background-color: #EAE6DD;
-    height: 95vh;
-    padding-top: 30px;
+    height: 115vh;
+    padding-top: 50px;
+    margin-top: 20px;
     @include breakpoint(md){
-        padding-top: 30px;
+        height: 100vh;
+        padding-top: 100px;
     }
 
 }

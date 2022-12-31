@@ -1,7 +1,7 @@
 import "./Carousel.scss";
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import { Carousel as ReactCarousel } from "react-responsive-carousel";
-import { animais } from "./carouselAnimais";
+import { animais } from "../Card/adocao";
 
 export default function Carousel(){
     return(
@@ -19,7 +19,7 @@ export default function Carousel(){
                     autoFocus={false}
                     swipeable={true}
                     emulateTouch={true}
-                    className="carousel">
+                    className="carouselAdocao">
                         {
                             animais.map(
                                 (animal)=>(
@@ -37,3 +37,5 @@ export default function Carousel(){
         </div>
     )
 }
+
+//for animal in animais:

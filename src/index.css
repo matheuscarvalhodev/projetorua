@@ -13,6 +13,8 @@ code {
     monospace;
 }
 
+
+
 #root {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -26,13 +28,13 @@ code {
   box-sizing: border-box;
 
 }
-.header {
-  background: linear-gradient(270deg, #106812, #419831);
-    background-size: 400% 400%;
+.header, .inicial-sectionSobre, .rodape {
+  background: linear-gradient(270deg, #426947, #43a14e);
+  background-size: 400% 400%;
 
-    -webkit-animation: AnimationName 7s ease infinite;
-    -moz-animation: AnimationName 7s ease infinite;
-    animation: AnimationName 7s ease infinite;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 
 @-webkit-keyframes AnimationName {

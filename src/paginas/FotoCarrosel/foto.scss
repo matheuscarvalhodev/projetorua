@@ -1,0 +1,49 @@
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
+.inicial-sectionSobre{
+    height: 115vh;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    @include breakpoint(md){
+        height: 100vh;
+    }
+}
+.principalSobre{
+    max-width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+.principalSobre  h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Rubik Bubbles',cursive;
+    font-weight: 200;
+}
+.carouselTexto{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-rows: 350px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: justify;
+    @include breakpoint(md){
+        grid-template-columns: 500px 1fr;
+        gap: 50px;
+        max-width: 900px;
+    }
+}
+.carouselSobre{
+    margin-top: 50px;
+}
