@@ -1,0 +1,36 @@
+.inicio-content{
+    background-color: #EAE6DD;
+}
+.principalInicial{
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 90vh;
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    grid-template-columns: 400px 600px;
+    grid-template-rows: 1fr;
+}
+.textoInicial{
+    text-align: center;
+    position: relative;
+}
+.textoInicial h1{
+    font-family: 'Rubik Bubbles',cursive;
+    font-weight: 200;
+    font-size: 80px;
+}
+.iconePaw1{
+    position: absolute;
+    top: -60px;
+    left: 20px;
+    rotate: 20deg;
+}
+.iconePaw2{
+    position: absolute;
+    bottom: -60px;
+    right: 20px;
+    rotate: -20deg;
+}
