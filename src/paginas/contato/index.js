@@ -2,12 +2,15 @@ import './contato.scss'
 import {GoLocation} from"react-icons/go"
 import{BiWorld} from"react-icons/bi"
 import {BsFillTelephoneFill,BsFillClockFill,BsCalendarWeek} from"react-icons/bs";
-export default function Contato () {
+import { FaPaw } from 'react-icons/fa';
+export default function Contato ({id}) {
 
     return(
-        
-        <div className='principalContato'>
-            <h1 className='tituloContato'>Contate-nos</h1>
+        <section className='principalContato' id={id}>
+            <div className='pata'>
+                <FaPaw size={36}/>
+                <h1>Contate-nos</h1>
+            </div>
             <div className='infor'>
                 <div className='fotoGato'>
                     <img src="../imagens/contato.png" alt="Contato"/>
@@ -21,6 +24,6 @@ export default function Contato () {
                         <BsFillTelephoneFill/><p>Contato: 93 9 99145-0833</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

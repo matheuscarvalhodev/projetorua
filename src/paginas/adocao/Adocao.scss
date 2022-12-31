@@ -1,14 +1,26 @@
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+  }
 
 .card{
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    grid-template-rows: 250px 250px 250px 250px;
-    gap: 20px;
-    width: 900px;
-    align-items: center;
-    justify-content: center;
+    grid-template-columns: 190px 190px;
+    grid-auto-rows: 160px;
+    gap: 15px;
+    margin: 40px auto;
     text-align: center;
-    margin: 50px auto;
+    justify-content: center;
+    @include breakpoint(md){
+        max-width: 900px;
+        grid-template-columns: 270px 270px 270px;
+        grid-auto-rows: 240px;
+        margin: 40px auto;
+    }
 }
 
 .tituloAdocao{
