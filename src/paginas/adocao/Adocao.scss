@@ -5,8 +5,11 @@
             @content;
         }
     }
-  }
+}
+.inicial-section{
 
+    height: 155vh;
+}
 .card{
     display: grid;
     grid-template-columns: 190px 190px;
@@ -27,7 +30,7 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding-top: 1.5rem;
+    padding-top: 1.2rem;
 
 }
 .tituloAdocao h1{

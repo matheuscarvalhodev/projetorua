@@ -52,6 +52,9 @@ function Menu() {
               <MenuLink to={"inicial"} children={"Pagina Inicial"}/>
             </li>
             <li className="nav-item">
+              <MenuLink to={"sobre"} children={"Sobre"}/>
+            </li>
+            <li className="nav-item">
             <MenuLink to={"adocao"} children={"Adoções"}/>
             </li>
             <li className="nav-item">

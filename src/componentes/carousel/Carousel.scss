@@ -17,7 +17,6 @@
 .cardCarousel{
     width: 350px;
     height: 290px;
-    border-radius: 50%;
     margin-bottom: 10px;
     @include breakpoint(md){
         width: 450px;
@@ -25,17 +24,21 @@
     }
 }
 
-.carousel{
+.carouselAdocao{
     height: 100%;
-    border-radius: 40%;
-    border: 5px solid white !important;
+    border-radius: 50%;
+    
 }
 
-.carousel .slide img{
+.carouselAdocao .slide img{
     width: 100%;
     height: 300px;
+    border-radius: 50%;
+    border: 5px solid white !important;
     @include breakpoint(md){
-        height: 350px;
+
+        height: 340px !important;
+
     }
 }
 
