@@ -1,7 +1,7 @@
 import Menu from './componentes/menu';
 import Adocao from './paginas/adocao';
 import PaginaInicial from './paginas/paginaInicial';
-import Contato from "./contato";
+import Contato from "./paginas/contato";
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Menu/>
       <PaginaInicial id="inicial"/>
       <Adocao id="adocao"/>
-    <Contato/>
+      <Contato/>
     </div>
   );
 }
