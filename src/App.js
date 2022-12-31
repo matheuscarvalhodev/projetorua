@@ -1,6 +1,8 @@
 import Menu from './componentes/menu';
 import Adocao from './paginas/adocao';
 import PaginaInicial from './paginas/paginaInicial';
+import Contato from "./paginas/contato";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <Menu/>
       <PaginaInicial id="inicial"/>
       <Adocao id="adocao"/>
+      <Contato/>
     </div>
   );
 }

@@ -1,0 +1,42 @@
+.tituloContato{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Rubik Bubbles',cursive;
+    font-weight: 200;
+    margin-top: 50px;
+}
+.Contato{
+    
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.principalContato{
+    background-color: #EAE6DD;
+    height: 90vh;
+
+}
+
+.principalContato img{
+    margin-top: 10px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 500px;
+}
+.infor{
+    margin: 9rem auto;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.fotoGato{
+    margin-top: -70px;
+}
