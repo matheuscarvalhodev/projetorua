@@ -10,7 +10,7 @@ function App() {
       <Menu/>
       <PaginaInicial id="inicial"/>
       <Adocao id="adocao"/>
-      <Contato/>
+      <Contato id="contato"/>
     </div>
   );
 }
