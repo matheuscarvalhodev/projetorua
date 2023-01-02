@@ -7,14 +7,20 @@
     }
 }
 .inicial-sectionSobre{
-    height: 115vh;
+    height: 150vh;
     margin-top: 10px;
     color: white;
+    @include breakpoint(md){
+        height: 115vh;
+    }
+}
+.inicial-sectionSobre p{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+    margin-top: 20px;
     @include breakpoint(md){
-        height: 100vh;
+        font-size: 18px;
     }
 }
 .principalSobre{
@@ -27,23 +33,26 @@
     align-items: center;
     justify-content: center;
     margin-top: 30px;
-    margin-bottom: 30px;
     font-family: 'Rubik Bubbles',cursive;
     font-weight: 200;
 }
 .carouselTexto{
-    margin-top: 50px;
+    margin-top: 20px;
     display: grid;
     grid-auto-rows: 350px;
     max-width: 400px;
     margin: 0 auto;
     text-align: justify;
     @include breakpoint(md){
-        grid-template-columns: 500px 1fr;
-        gap: 50px;
-        max-width: 900px;
+        margin: 0 auto;
+        grid-template-columns: 400px 1fr;
+        gap: 40px;
+        max-width: 800px;
     }
 }
 .carouselSobre{
     margin-top: 50px;
+    @include breakpoint(md){
+        margin-top: 70px;
+    }
 }

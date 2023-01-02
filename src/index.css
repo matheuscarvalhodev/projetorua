@@ -13,13 +13,14 @@ code {
     monospace;
 }
 
-
+h1{
+  font-family: 'Rubik Bubbles',cursive;
+}
 
 #root {
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
-  min-height: 100vh;
 }
 
 *{
@@ -28,7 +29,7 @@ code {
   box-sizing: border-box;
 
 }
-.header, .inicial-sectionSobre, .rodape {
+.header, .inicial-sectionSobre, .rodape, .inicial-doacao {
   background: linear-gradient(270deg, #426947, #43a14e);
   background-size: 400% 400%;
 

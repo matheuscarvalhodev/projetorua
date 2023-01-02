@@ -2,8 +2,9 @@ import Menu from './componentes/menu';
 import Adocao from './paginas/adocao';
 import PaginaInicial from './paginas/paginaInicial';
 import Contato from "./paginas/contato";
-import Sobre from './paginas/FotoCarrosel';
+import Sobre from './paginas/sobre';
 import Rodape from './componentes/rodape';
+import Doacao from './paginas/doacao';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <PaginaInicial id="inicial"/>
       <Sobre id="sobre"/>
       <Adocao id="adocao"/>
+      <Doacao id="doacao"/>
       <Contato id="contato"/>
       <Rodape/>
     </div>

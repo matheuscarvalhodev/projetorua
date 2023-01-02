@@ -6,19 +6,16 @@
         }
     }
 }
-.inicio-content{
-    background-color: #EAE6DD;
-    height: 100vh;
-}
+
 .principalInicial{
-    margin-top: 4rem;
-    height: 90vh;
+    padding-top: 6rem;
+    height: 130vh;
     display: grid;
-    grid-template-rows: 1fr 1fr;
     align-items: center;
+    grid-template-rows: 1fr 1fr;
     @include breakpoint(md){
-        max-width: 1000px;
-        margin-top: 3rem;
+        max-width: 9000px;
+        height: 90vh;
         margin-left: auto;
         margin-right: auto;
         align-items: center;

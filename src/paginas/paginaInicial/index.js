@@ -4,8 +4,7 @@ import Carousel from "../../componentes/carousel"
 import "./Inicial.scss"
 export default function PaginaInicial({id}){
     return(
-        <section className="inicio-content" id={id}>
-            <div className="principalInicial">
+            <section className="principalInicial" id={id}>
                 <div><Carousel/></div>
                 <div className="textoInicial">
                     <div className="iconePaw1">
@@ -17,7 +16,6 @@ export default function PaginaInicial({id}){
                         <SiDatadog size={90}/>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
     )
 }

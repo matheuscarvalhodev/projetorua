@@ -1,0 +1,124 @@
+@mixin breakpoint($point){
+    @if $point==md {
+        @media (min-width:48em){@content}
+        
+    }
+}
+.inicial-doacao{
+    color: white;
+    height: 100vh;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    @include breakpoint(md){
+        height: 110vh;
+    }
+}
+.inicial-doacao h1{
+    font-weight: 200;
+    text-align: center;
+}
+.inicial-doacao p{
+    font-family: 'Roboto', cursive;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    margin: 20px auto;
+    max-width: 900px;
+}
+.textoGato{
+    display: grid;
+    margin-top: 20px;
+    align-items: center;
+    max-width: 360px;
+    font-size: 14px;
+    grid-template-columns: 340px;
+    text-align: justify;
+    @include breakpoint(md){
+        font-size: 18px;
+        grid-template-columns: 400px;
+    }
+}
+.inicial-doacao img{
+    width: 30%;
+    @include breakpoint(md){
+        width: 40%;
+    }
+}
+.principalCardDoacao {
+    perspective: 1000px;
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 16rem;
+    @include breakpoint(md){
+        margin: 20px auto;
+        height: 220px;
+        width: 16rem;
+    }
+}
+.principalCardDoacao .frontDoacao{
+    padding: 15px;
+    background-color: #EAE6DD;
+    color: black;
+    position: absolute;
+    transform: rotate(0deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+    border: 2px solid black;
+    border-radius: 15px !important;
+    height: 200px;
+    width: 15rem;
+    font-size: 12px;
+    @include breakpoint(md){
+        font-size: 18px;
+        height: 300px;
+        width: 20rem;
+    }
+    
+}
+
+.principalCardDoacao .backDoacao{
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s linear;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-radius: 15px !important;
+    height: 200px;
+    width: 15rem;
+    @include breakpoint(md){
+        height: 300px;
+        width: 20rem;
+    }
+}
+
+.principalCardDoacao:hover .backDoacao{
+    transform: rotateY(0deg);
+}
+.principalCardDoacao:hover .frontDoacao{
+    transform: rotateY(-180deg);
+    border-top-left-radius: 0;
+    border-bottom-right-radius:0 ;
+    
+}
+.textoDoacao{
+    margin-top: 8px;
+    @include breakpoint(md){
+        margin-top: 20px;
+    }
+    
+}
+.textoMouse{
+    position: absolute;
+    bottom: 10px;
+}
+.qr-code svg{
+    size: 100px;
+}
