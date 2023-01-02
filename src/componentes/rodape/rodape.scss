@@ -7,10 +7,18 @@
     }
 }
 .rodape{
+    display: none;
     @include breakpoint(md){
-        height: 80px;
+        display: flex;
+        gap: 5px;
+        height: 60px;
         position: fixed;
         bottom: 0;
         width: 100%;
+        align-items: center;
+        padding-left: 20px;
     }
+}
+.rodape h2{
+    font-size: 12px;
 }

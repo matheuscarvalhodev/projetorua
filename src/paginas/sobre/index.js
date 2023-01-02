@@ -1,4 +1,4 @@
-import './foto.scss';
+import './sobre.scss';
 import { Carousel} from "react-responsive-carousel";
 import { fotos } from './listaFoto';
 
